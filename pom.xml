@@ -46,5 +46,35 @@
         </plugins>
     </build>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>master</tag>
+        <url>git@github.com:uwjx/uwjx-commons.git</url>
+        <connection>scm:git:git@github.com:uwjx/uwjx-commons.git</connection>
+        <developerConnection>scm:git:git@github.com:uwjx/uwjx-commons.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>Hugh Wang</name>
+            <email>hughwang.me@gmail.com</email>
+            <organization>https://uwjx.com</organization>
+        </developer>
+    </developers>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>jira</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>jira</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
