@@ -8,4 +8,4 @@ if [ -z "$1" ]; then
      comment=$1;
 fi
 git commit -a -m "$comment"
-git push github development
+git push origin development
